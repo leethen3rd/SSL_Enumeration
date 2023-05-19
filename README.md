@@ -11,8 +11,18 @@ This GitHub repo offers code snippets to extract SSL cert data. It covers multip
 ## Serial Number Extracion
 
 ### Bash Script: `ssl_seialNum.sh`
+**How To:**
 
+* Add as many IP's as needed in the file `ip_addresses.txt`
+* Make it excutable by running this command in your command line `chmod +x ssl_serialNum.sh`
+* Execute script by running this command in your command line `./ssl_serialNum.sh`
+* When completed, the script will save results to a CSV file.
 * Requires OpenSSL (see Requirements Resources Section for getting this resource)
+
+Example Output
+| IP Address | Serial Number |
+|------------|---------------|
+|127.0.0.1 | 123456789982|
 
 
 <p>
